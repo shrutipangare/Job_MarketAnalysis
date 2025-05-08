@@ -1,0 +1,39 @@
+Job Market Analysis
+The job market, including engineering, finance, and corporate sectors, has been affected by economic shifts, automation, and changing workplace dynamics.
+
+This project tackles that challenge by building a data-driven Job-Market Intelligence Engine that:
+Classifies job titles into meaningful industry categories using supervised learning to impose structure on the fragmented language of online postings.
+Maps workforce skills to career opportunities by clustering jobs on skill vectors, revealing natural groupings of roles that demand similar capabilities.
+Quantifies skill gaps and generates personalized career recommendations through predictive models that compare current talent supply to forecasted demand across industries.
+By performing classification, clustering, and forecasting, the project provides actionable insights for job seekers (targeted upskilling paths), employers (evidence-based talent strategies), and policymakers (data-backed workforce development).
+
+Data Sources
+
+Job Description Dataset
+
+URL: https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset
+Size: 1.74 GB
+Records: 1,615,940
+
+
+LinkedIn Jobs and Skills 2024
+
+URL: https://www.kaggle.com/datasets/asaniczka/1-3m-linkedin-jobs-and-skills-2024
+Size: 6.19 GB
+Records: 1.3 million
+
+Teck Stack:
+Google Colab/Jupyter Notebook
+Python
+Pyspark, PySQL
+Spark MLlib
+Pandas, Numpy,
+Matplotlib, Seaborn
+Tableau
+
+
+Team Members:
+
+Ilka Jean (ifj2007)
+Neha Nainan (nan6504)
+Shruti Pangare (stp8232)
