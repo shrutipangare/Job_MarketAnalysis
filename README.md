@@ -14,6 +14,23 @@ By performing classification, clustering, and forecasting, the project provides 
 - Employers (evidence-based talent strategies)
 - Policymakers (data-backed workforce development)
 
+## Jupyter Notebook Overview
+  Job Classifcation Workflow Summary
+- Cleaned and Merged Data Set is Loaded
+- Text Cleaning: Normalized noisy job titles by lowercasing, removing fluff terms, and standardizing format.
+- Spark ML Pipeline: Tokenized titles, removed stopwords, and extracted features using HashingTF + IDF. Trained a baseline logistic regression model.
+- Manual Label Seeding: Labeled ~70 common titles across industries (Tech, Healthcare, etc.) to bootstrap training.
+- Full Dataset Inference: Applied the model to classify all job titles into industries.
+- Refined with scikit-learn: Re-trained using TfidfVectorizer and LogisticRegression for better accuracy on short text.
+- Visualization: Showed job volume by predicted industry using bar plots.
+
+  Skill Gap Analysis and Career Recommendations
+- Skill Clustering: Used KMeans on binary skill indicators (has_ columns) to group users with similar abilities.
+- Cluster Interpretation: Identified dominant skills per cluster to describe each group meaningfully.
+- Sector Clustering: Grouped job sectors by average skill demand using Spark + Pandas + KMeans.
+- Skill Gap Analysis: Compared a user's skill profile to each cluster center using cosine similarity to highlight missing skills.
+- Career Transition Paths: Suggested target clusters the user can move toward and the top skills needed for that transition.
+
 ## Data Sources
 
 ### Job Description Dataset
