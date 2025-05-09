@@ -15,7 +15,7 @@ By performing classification, clustering, and forecasting, the project provides 
 - Policymakers (data-backed workforce development)
 
 ## Jupyter Notebook Overview
-  * Job Classifcation
+#### Job Classifcation
 - Cleaned and Merged Data Set is Loaded
 - Text Cleaning: Normalized noisy job titles by lowercasing, removing fluff terms, and standardizing format.
 - Spark ML Pipeline: Tokenized titles, removed stopwords, and extracted features using HashingTF + IDF. Trained a baseline logistic regression model.
@@ -26,7 +26,7 @@ By performing classification, clustering, and forecasting, the project provides 
 
 
 
-  * Skill Gap Analysis and Career Recommendations
+#### Skill Gap Analysis and Career Recommendations
 - Skill Clustering: Used KMeans on binary skill indicators (has_ columns) to group users with similar abilities.
 - Cluster Interpretation: Identified dominant skills per cluster to describe each group meaningfully.
 - Sector Clustering: Grouped job sectors by average skill demand using Spark + Pandas + KMeans.
