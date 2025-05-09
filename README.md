@@ -15,7 +15,7 @@ By performing classification, clustering, and forecasting, the project provides 
 - Policymakers (data-backed workforce development)
 
 ## Jupyter Notebook Overview
-  Job Classifcation Workflow Summary
+  Job Classifcation
 - Cleaned and Merged Data Set is Loaded
 - Text Cleaning: Normalized noisy job titles by lowercasing, removing fluff terms, and standardizing format.
 - Spark ML Pipeline: Tokenized titles, removed stopwords, and extracted features using HashingTF + IDF. Trained a baseline logistic regression model.
@@ -23,6 +23,8 @@ By performing classification, clustering, and forecasting, the project provides 
 - Full Dataset Inference: Applied the model to classify all job titles into industries.
 - Refined with scikit-learn: Re-trained using TfidfVectorizer and LogisticRegression for better accuracy on short text.
 - Visualization: Showed job volume by predicted industry using bar plots.
+
+
 
   Skill Gap Analysis and Career Recommendations
 - Skill Clustering: Used KMeans on binary skill indicators (has_ columns) to group users with similar abilities.
