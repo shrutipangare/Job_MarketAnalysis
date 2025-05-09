@@ -26,6 +26,13 @@ By performing classification, clustering, and forecasting, the project provides 
 - **Size:** 6.19 GB
 - **Records:** 1.3 million
 
+### Files:
+- Data_preparation.ipynb - Loading and Data Processing
+- Basic_ExploratoryAnalysis.ipynb - Performed some data Analysis
+- Job_classification.ipynb, Skill and Career Rec.ipynb - ML models
+- job_analysis_dashboard.twb- Tableau Dashboard
+
+
 ## Tech Stack
 Google Colab/Jupyter Notebook, Python, Pyspark, PySQL, Spark, MLlib, Pandas, Numpy, Matplotlib, Seaborn, Tableau
 
